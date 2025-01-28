@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIM DO RESET */
+
+
+*{
+    text-decoration: none;
+}
+
+body{
+	display: flex;
+    font-family: "Comic Neue", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav{
+    background-color: #62A51B;
+    padding: 5px 10px 5px 10px;
+    color: azure;
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+	width: 100%;
+}
+
+nav a{
+    margin: 10px;
+    color: azure;
+}
+
+aside{
+	position: absolute;
+	top: 70px;
+	right: 30px;
+}
+
+aside img{
+	width: 150px;
+	height: 880px;
+}
+
+header{
+	position: absolute;
+	top: 70px;
+	left: 30px;
+}
+
+header img{
+	height: 400px;
+	width: 1000px;
+}
+
+.bb_bg{
+	background-color: #F0DE8E;
+}
+
+.xmas_bg{
+	background-color: #912222;
+}
+
+.home_bg{
+	background-color: #96ACB5;
+}
+
+.login_bg{
+	background-color: #6cce54;
+	overflow: hidden;
+}
+
+.art{
+	display: flex;
+	position: absolute;
+	width: 1000px;
+	top: 500px;
+	left: 30px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: azure;
+}
+
+.art article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 450px;
+	height: 250px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.art2{
+	display: flex;
+	position: absolute;
+	width: 1000px;
+	top: 800px;
+	left: 30px;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: azure;
+}
+
+.art2 article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	width: 1000px;
+	height: 150px;
+	font-size: 30px;
+	text-align: left;
+}
+
+.art2 h2{
+	margin-bottom: 20px;
+}
+
+footer{
+	background-color: #62A51B;
+	padding: 10px 0px 5px 10px;
+    color: azure;
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+	width: 100%;
+	position: absolute;
+	top: 1000px;
+}
+
+.bb{
+	background-color: #7F6F0F;
+}
+
+.xmas{
+	background-color: #1A5D0B;
+}
+
+.home1{
+	background-color: #286A42;
+}
+
+.home2{
+	background-color: #656C36;
+}
+
+.home3{
+	background-color: #76393B	;
+}
+
+.hd_login{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background-color: #93a42a;
+	color: azure;
+	padding: 5px 10px 5px 10px;
+	width: 100%;
+	left: 0px;
+}
+
+.hd_login h3{
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.formu{
+	background-color: #78ED6B;
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 50px;
+	left: 24vw;
+	top: 30vh;
+}
+
+.formu form{
+	display: flex;
+	flex-direction: column;
+}
+
+form button{
+	color: azure;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 50px;
+	background-color: #1A5D0B;
+	border: none;
+}
+
+input{
+	font-weight: 0;
+	background-color: #BFEDBF;
+	border: none;
+	height: 60px;
+	font-size: 50px;
+}
+
+label{
+	margin-bottom: 5px;
+}
